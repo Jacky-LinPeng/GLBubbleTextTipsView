@@ -1,0 +1,6 @@
+framework module Pods_GLBubbleTextTipsView_Example {
+  umbrella header "Pods-GLBubbleTextTipsView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

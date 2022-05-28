@@ -1,0 +1,6 @@
+framework module Pods_GLBubbleTextTipsView_Tests {
+  umbrella header "Pods-GLBubbleTextTipsView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

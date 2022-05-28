@@ -1,0 +1,6 @@
+framework module GLBubbleTextTipsView {
+  umbrella header "GLBubbleTextTipsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GLBubbleTextTipsView_Example' do
+  pod 'GLBubbleTextTipsView', :path => '../'
+
+  target 'GLBubbleTextTipsView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

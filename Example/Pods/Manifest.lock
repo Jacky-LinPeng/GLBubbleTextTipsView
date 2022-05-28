@@ -1,0 +1,23 @@
+PODS:
+  - GLBubbleTextTipsView (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - GLBubbleTextTipsView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  GLBubbleTextTipsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLBubbleTextTipsView: 479ffbe5aa0fc17aa7b75cc0d2f1390141e06aa8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: fe80fd4021310b238978000b95a56bd0c1ee5903
+
+COCOAPODS: 1.11.3

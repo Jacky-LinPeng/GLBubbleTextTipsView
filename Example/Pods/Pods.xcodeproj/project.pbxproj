@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04740DFC50DD4CA48CC2DCB6808DB90F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D7C41044E6BF8BBCFBF097F8AA8A46E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		0E834756042266C7D0BD2F7B5134E7F2 /* GLBubbleTextTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44850768957CC638402D954667A5FC4C /* GLBubbleTextTipsView.m */; };
+		0FFDAD1356998A1421943B09C4578ECD /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161D2ABF3A30D053490851CC418DD3F8 /* GLBubbleTextTipsView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E2D530A9C900D17F66B94E66C0E53A /* GLBubbleTextTipsView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE4F67D8A92ABD5284AF8DB103BDBD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		1E264840CC1B838C3CA5A4F79F19760B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A95D0FF78B7F5571CCBACF25C84D51E /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303939AD4356A63DC961A0B3D271000B /* GLBubbleTextTipsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91EEC6EA035C0D35E450A25758F17F /* GLBubbleTextTipsView-dummy.m */; };
+		3575AE464EF03337E899CDBE41BC1B41 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3616CFD7686324D8A7884252B9D00F43 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C92B95A29496B4902A4CBFCEBE0C8B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		441BE21C7815293DF8F4FC22564C73DD /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AAD7B2D419472BB17CC39E301ADC7A4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		575E74706E7D5E23631BC3E6DEA1EF6A /* Pods-GLBubbleTextTipsView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7762060D6A6D7E89DDF2505E6F626C /* Pods-GLBubbleTextTipsView_Example-dummy.m */; };
+		5D7ED5ADA5BEE4DE2025E8CC8FDC222D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E31C0836691EDDD71B23EF8E8AD7ECD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620F0606AA922A21E8E1DBAD3C064565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		625B24F3B744B741E5F98537796F6FA0 /* GLBubbleTextTipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = A357F9EA4E0066B60C04AC454963C6CB /* GLBubbleTextTipsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6488DA85EE1804061495B722874DD681 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		6ADF7FAB357649B692512CB8CDFB6C7A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		75CC71DA58CE1136E77F00875EC4E0E0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		77BC749A0BFEE6644E005350ADD48CAF /* Pods-GLBubbleTextTipsView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B366EC81270CE56E36313BC0558556F /* Pods-GLBubbleTextTipsView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C97A628D72EE557B836F4C194849D71 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		86FB068C7FFE587169E1574AC8585010 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9866F50AE330BC0BCD4439B91E2B791E /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D26CEDC7F4548CC2463F4EC6FA59BD3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		ACD93D54605C7A40EDA90FE288B69CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BC3DD2AA318F581EAD1DE5ED08C65CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C5BBCB0DA68DE1CF18CC07685C4E03BF /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E3C666AECE6430220D5DB1E6A85B52 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		C9B91B33DDDFAD96D896DD09F84BBA01 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D349894C5CCA6C413A9757A5103E007C /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6EC2C25BAD5A3DF9CEAFBF08EED108D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		D71AF15E17E4C507B9522D58526F0821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		D79188BCDE7E2872D5B5FF6B88C7DE6C /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E415AE140CCB2FDC230EAFF1E6865C5E /* Pods-GLBubbleTextTipsView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6761BFFD44B2D50028FEE6C143135C6 /* Pods-GLBubbleTextTipsView_Tests-dummy.m */; };
+		ED8E895DA56E02D2220D2583624FAC92 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED0D9E49AABC69EB253F23EAF629A2F /* Pods-GLBubbleTextTipsView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229857567AB3444CD84AEDA3C473EA27 /* Pods-GLBubbleTextTipsView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89500A17F061D3302379FBD47106E85 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607BAA733262408E7AB7014DF4A1BD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B07F49ABBE0791A000D4EA29B98C240;
+			remoteInfo = "Pods-GLBubbleTextTipsView_Example";
+		};
+		72B6CF8C69703D08A5C3A4B9E2D1F66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DF1E72D784096985D7115A1B1D50CD;
+			remoteInfo = GLBubbleTextTipsView;
+		};
+		CECCA1AE689C7E38130EDF55C35ADFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		EDA3D75710E84E526456125A46041622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0012732727F3C6EDC3C6A0F087AF86F7 /* Pods-GLBubbleTextTipsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLBubbleTextTipsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		007AC8BBE3430AAA8A1B74E0112E332E /* Pods-GLBubbleTextTipsView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLBubbleTextTipsView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		04E01DDC6019EC90D4DAC3485FE33F5B /* Pods-GLBubbleTextTipsView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GLBubbleTextTipsView_Example"; path = Pods_GLBubbleTextTipsView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		14FC95E5AF90A382C95EDF7538C9F407 /* Pods-GLBubbleTextTipsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLBubbleTextTipsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1579247EB051D1FCBC63EE585400EAED /* GLBubbleTextTipsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLBubbleTextTipsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		166539207CA6FE1E8262F375C51D5C18 /* GLBubbleTextTipsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLBubbleTextTipsView.release.xcconfig; sourceTree = "<group>"; };
+		17588C10E6516F882366A9192CC3A82D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B9FE5C5301DC0CDD490149447824027 /* Pods-GLBubbleTextTipsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLBubbleTextTipsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229857567AB3444CD84AEDA3C473EA27 /* Pods-GLBubbleTextTipsView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLBubbleTextTipsView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		230D84A4348DF4C3973F4FDA3FF5364A /* GLBubbleTextTipsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLBubbleTextTipsView.modulemap; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		4229FC2868062CF40E8752D31CA35B25 /* Pods-GLBubbleTextTipsView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLBubbleTextTipsView_Tests-Info.plist"; sourceTree = "<group>"; };
+		44850768957CC638402D954667A5FC4C /* GLBubbleTextTipsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLBubbleTextTipsView.m; path = GLBubbleTextTipsView/Classes/GLBubbleTextTipsView.m; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4953694C929B393EC3C81C5B629BA300 /* GLBubbleTextTipsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLBubbleTextTipsView-prefix.pch"; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		50747A8FF6921F7BB132C4761ACBCA02 /* GLBubbleTextTipsView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLBubbleTextTipsView; path = GLBubbleTextTipsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		60E2D530A9C900D17F66B94E66C0E53A /* GLBubbleTextTipsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLBubbleTextTipsView-umbrella.h"; sourceTree = "<group>"; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7C7762060D6A6D7E89DDF2505E6F626C /* Pods-GLBubbleTextTipsView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLBubbleTextTipsView_Example-dummy.m"; sourceTree = "<group>"; };
+		813120DBF5D7C6587D25675F6C258423 /* Pods-GLBubbleTextTipsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLBubbleTextTipsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		885E94E7BBCB8053125D92F8209BD1DE /* Pods-GLBubbleTextTipsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLBubbleTextTipsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8864DF657A2203E7BA757FC450E762ED /* Pods-GLBubbleTextTipsView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLBubbleTextTipsView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8B366EC81270CE56E36313BC0558556F /* Pods-GLBubbleTextTipsView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLBubbleTextTipsView_Example-umbrella.h"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		952DE83A9A37FFDF45B08B68CCF7CD0B /* Pods-GLBubbleTextTipsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLBubbleTextTipsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1F20E154191FD194538802FAB730A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A357F9EA4E0066B60C04AC454963C6CB /* GLBubbleTextTipsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLBubbleTextTipsView.h; path = GLBubbleTextTipsView/Classes/GLBubbleTextTipsView.h; sourceTree = "<group>"; };
+		A6761BFFD44B2D50028FEE6C143135C6 /* Pods-GLBubbleTextTipsView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLBubbleTextTipsView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A67FD7D4198F159C007831172AD4CEEC /* Pods-GLBubbleTextTipsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLBubbleTextTipsView_Example.modulemap"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B3A5F1AE9AD3B75C6272DBBE35DFD740 /* GLBubbleTextTipsView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLBubbleTextTipsView-Info.plist"; sourceTree = "<group>"; };
+		B9A1657BE801601DACFB0B04C971E6AC /* Pods-GLBubbleTextTipsView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GLBubbleTextTipsView_Tests"; path = Pods_GLBubbleTextTipsView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA877E7AD1D5B3285904422945EA7639 /* Pods-GLBubbleTextTipsView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLBubbleTextTipsView_Tests.modulemap"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C5B9488B5765C248CB87E3C634B069DC /* Pods-GLBubbleTextTipsView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLBubbleTextTipsView_Example-Info.plist"; sourceTree = "<group>"; };
+		C8B422B0BBAF7A43F055B4FC229B8C78 /* Pods-GLBubbleTextTipsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLBubbleTextTipsView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EB91EEC6EA035C0D35E450A25758F17F /* GLBubbleTextTipsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLBubbleTextTipsView-dummy.m"; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EDF1AA7E3FADFE22E913BDF801457815 /* GLBubbleTextTipsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLBubbleTextTipsView.debug.xcconfig; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5461B3127E7DB22130792A80A1B54078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F0606AA922A21E8E1DBAD3C064565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA2226C9C657A8ECA510E2EF31A68D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C92B95A29496B4902A4CBFCEBE0C8B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647F5B0D9CF409B347453443A39C6F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3DD2AA318F581EAD1DE5ED08C65CAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6CD821DBC8F4998827FC31211E8C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD93D54605C7A40EDA90FE288B69CBB /* Foundation.framework in Frameworks */,
+				D71AF15E17E4C507B9522D58526F0821 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC41894F40E4CB42DEB89B4FA840911 /* Pods-GLBubbleTextTipsView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA877E7AD1D5B3285904422945EA7639 /* Pods-GLBubbleTextTipsView_Tests.modulemap */,
+				1B9FE5C5301DC0CDD490149447824027 /* Pods-GLBubbleTextTipsView_Tests-acknowledgements.markdown */,
+				14FC95E5AF90A382C95EDF7538C9F407 /* Pods-GLBubbleTextTipsView_Tests-acknowledgements.plist */,
+				A6761BFFD44B2D50028FEE6C143135C6 /* Pods-GLBubbleTextTipsView_Tests-dummy.m */,
+				4229FC2868062CF40E8752D31CA35B25 /* Pods-GLBubbleTextTipsView_Tests-Info.plist */,
+				229857567AB3444CD84AEDA3C473EA27 /* Pods-GLBubbleTextTipsView_Tests-umbrella.h */,
+				885E94E7BBCB8053125D92F8209BD1DE /* Pods-GLBubbleTextTipsView_Tests.debug.xcconfig */,
+				952DE83A9A37FFDF45B08B68CCF7CD0B /* Pods-GLBubbleTextTipsView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GLBubbleTextTipsView_Tests";
+			path = "Target Support Files/Pods-GLBubbleTextTipsView_Tests";
+			sourceTree = "<group>";
+		};
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38794552E1628D4B51C56BDCF2F0D49A /* Pods-GLBubbleTextTipsView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A67FD7D4198F159C007831172AD4CEEC /* Pods-GLBubbleTextTipsView_Example.modulemap */,
+				007AC8BBE3430AAA8A1B74E0112E332E /* Pods-GLBubbleTextTipsView_Example-acknowledgements.markdown */,
+				0012732727F3C6EDC3C6A0F087AF86F7 /* Pods-GLBubbleTextTipsView_Example-acknowledgements.plist */,
+				7C7762060D6A6D7E89DDF2505E6F626C /* Pods-GLBubbleTextTipsView_Example-dummy.m */,
+				8864DF657A2203E7BA757FC450E762ED /* Pods-GLBubbleTextTipsView_Example-frameworks.sh */,
+				C5B9488B5765C248CB87E3C634B069DC /* Pods-GLBubbleTextTipsView_Example-Info.plist */,
+				8B366EC81270CE56E36313BC0558556F /* Pods-GLBubbleTextTipsView_Example-umbrella.h */,
+				813120DBF5D7C6587D25675F6C258423 /* Pods-GLBubbleTextTipsView_Example.debug.xcconfig */,
+				C8B422B0BBAF7A43F055B4FC229B8C78 /* Pods-GLBubbleTextTipsView_Example.release.xcconfig */,
+			);
+			name = "Pods-GLBubbleTextTipsView_Example";
+			path = "Target Support Files/Pods-GLBubbleTextTipsView_Example";
+			sourceTree = "<group>";
+		};
+		4FA59FFDD1B94E8A4DDE76A91B8445B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38794552E1628D4B51C56BDCF2F0D49A /* Pods-GLBubbleTextTipsView_Example */,
+				0AC41894F40E4CB42DEB89B4FA840911 /* Pods-GLBubbleTextTipsView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		618A8657E4190A23E0B6644E99FB9E13 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1579247EB051D1FCBC63EE585400EAED /* GLBubbleTextTipsView.podspec */,
+				17588C10E6516F882366A9192CC3A82D /* LICENSE */,
+				9E1F20E154191FD194538802FAB730A6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6BDF1BC8EAE989A4DC5C3C3E622BEE48 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F381108168395095DDD76C62EA538F71 /* GLBubbleTextTipsView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6BDF1BC8EAE989A4DC5C3C3E622BEE48 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				D4C9F71AAA4D41AB9A4E60E5A798E91A /* Products */,
+				4FA59FFDD1B94E8A4DDE76A91B8445B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C9F71AAA4D41AB9A4E60E5A798E91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50747A8FF6921F7BB132C4761ACBCA02 /* GLBubbleTextTipsView */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				04E01DDC6019EC90D4DAC3485FE33F5B /* Pods-GLBubbleTextTipsView_Example */,
+				B9A1657BE801601DACFB0B04C971E6AC /* Pods-GLBubbleTextTipsView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F381108168395095DDD76C62EA538F71 /* GLBubbleTextTipsView */ = {
+			isa = PBXGroup;
+			children = (
+				A357F9EA4E0066B60C04AC454963C6CB /* GLBubbleTextTipsView.h */,
+				44850768957CC638402D954667A5FC4C /* GLBubbleTextTipsView.m */,
+				618A8657E4190A23E0B6644E99FB9E13 /* Pod */,
+				FC175CF90660151621D7833A862FF434 /* Support Files */,
+			);
+			name = GLBubbleTextTipsView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC175CF90660151621D7833A862FF434 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				230D84A4348DF4C3973F4FDA3FF5364A /* GLBubbleTextTipsView.modulemap */,
+				EB91EEC6EA035C0D35E450A25758F17F /* GLBubbleTextTipsView-dummy.m */,
+				B3A5F1AE9AD3B75C6272DBBE35DFD740 /* GLBubbleTextTipsView-Info.plist */,
+				4953694C929B393EC3C81C5B629BA300 /* GLBubbleTextTipsView-prefix.pch */,
+				60E2D530A9C900D17F66B94E66C0E53A /* GLBubbleTextTipsView-umbrella.h */,
+				EDF1AA7E3FADFE22E913BDF801457815 /* GLBubbleTextTipsView.debug.xcconfig */,
+				166539207CA6FE1E8262F375C51D5C18 /* GLBubbleTextTipsView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLBubbleTextTipsView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1529FBE03C81C7749DCE61CA1B56F3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625B24F3B744B741E5F98537796F6FA0 /* GLBubbleTextTipsView.h in Headers */,
+				161D2ABF3A30D053490851CC418DD3F8 /* GLBubbleTextTipsView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A62F788060762E3C0A6F57BD4F6A04C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7ED5ADA5BEE4DE2025E8CC8FDC222D /* MASCompositeConstraint.h in Headers */,
+				3575AE464EF03337E899CDBE41BC1B41 /* MASConstraint.h in Headers */,
+				C9B91B33DDDFAD96D896DD09F84BBA01 /* MASConstraint+Private.h in Headers */,
+				86FB068C7FFE587169E1574AC8585010 /* MASConstraintMaker.h in Headers */,
+				1E264840CC1B838C3CA5A4F79F19760B /* MASLayoutConstraint.h in Headers */,
+				3616CFD7686324D8A7884252B9D00F43 /* Masonry.h in Headers */,
+				9866F50AE330BC0BCD4439B91E2B791E /* Masonry-umbrella.h in Headers */,
+				2A95D0FF78B7F5571CCBACF25C84D51E /* MASUtilities.h in Headers */,
+				D79188BCDE7E2872D5B5FF6B88C7DE6C /* MASViewAttribute.h in Headers */,
+				441BE21C7815293DF8F4FC22564C73DD /* MASViewConstraint.h in Headers */,
+				04740DFC50DD4CA48CC2DCB6808DB90F /* NSArray+MASAdditions.h in Headers */,
+				5E31C0836691EDDD71B23EF8E8AD7ECD /* NSArray+MASShorthandAdditions.h in Headers */,
+				C5BBCB0DA68DE1CF18CC07685C4E03BF /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				ED8E895DA56E02D2220D2583624FAC92 /* View+MASAdditions.h in Headers */,
+				0FFDAD1356998A1421943B09C4578ECD /* View+MASShorthandAdditions.h in Headers */,
+				D349894C5CCA6C413A9757A5103E007C /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B594B5489E5E65EB35A6C350B03C0B63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BC749A0BFEE6644E005350ADD48CAF /* Pods-GLBubbleTextTipsView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB699F5DCE5AE8E7925EB53BA6CA710C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED0D9E49AABC69EB253F23EAF629A2F /* Pods-GLBubbleTextTipsView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AE4D3B3E62027D13D838913BEA03427 /* Pods-GLBubbleTextTipsView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EEA0A59C8695E1DF2CB21FA81DE623A /* Build configuration list for PBXNativeTarget "Pods-GLBubbleTextTipsView_Tests" */;
+			buildPhases = (
+				FB699F5DCE5AE8E7925EB53BA6CA710C /* Headers */,
+				0944ACDF9109427850A24ED3B8AF8E2A /* Sources */,
+				647F5B0D9CF409B347453443A39C6F5B /* Frameworks */,
+				233D1C6AE014366948F01BC0F9921D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB7524864D85EE318BEBAF03D38F3D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLBubbleTextTipsView_Tests";
+			productName = Pods_GLBubbleTextTipsView_Tests;
+			productReference = B9A1657BE801601DACFB0B04C971E6AC /* Pods-GLBubbleTextTipsView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		16DF1E72D784096985D7115A1B1D50CD /* GLBubbleTextTipsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE28CC92DF7B68F319340A32C39D414 /* Build configuration list for PBXNativeTarget "GLBubbleTextTipsView" */;
+			buildPhases = (
+				1529FBE03C81C7749DCE61CA1B56F3B9 /* Headers */,
+				ECFFA1C8AF2FBE2739C085DBF90ED3DC /* Sources */,
+				5461B3127E7DB22130792A80A1B54078 /* Frameworks */,
+				22D4E9E0919F56FC1052D58FDB588920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEA2B3174CB60798F5170A1DB11DD98 /* PBXTargetDependency */,
+			);
+			name = GLBubbleTextTipsView;
+			productName = GLBubbleTextTipsView;
+			productReference = 50747A8FF6921F7BB132C4761ACBCA02 /* GLBubbleTextTipsView */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B07F49ABBE0791A000D4EA29B98C240 /* Pods-GLBubbleTextTipsView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00EFAED4CB063F16DFD27EB6EEC3DAE /* Build configuration list for PBXNativeTarget "Pods-GLBubbleTextTipsView_Example" */;
+			buildPhases = (
+				B594B5489E5E65EB35A6C350B03C0B63 /* Headers */,
+				101E75942E25E2AD68963919B25C5F5B /* Sources */,
+				5FA2226C9C657A8ECA510E2EF31A68D6 /* Frameworks */,
+				6393E07E0394126CB083BF85FD3B9C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271E718E67CEC975478B6C3E15523868 /* PBXTargetDependency */,
+				830BEAC193E160EFC99540E4414B7357 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLBubbleTextTipsView_Example";
+			productName = Pods_GLBubbleTextTipsView_Example;
+			productReference = 04E01DDC6019EC90D4DAC3485FE33F5B /* Pods-GLBubbleTextTipsView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED177522FFA9C9541988BEE129BBDFFD /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7A62F788060762E3C0A6F57BD4F6A04C /* Headers */,
+				324532A9349853F4B40E1D233C0A3D0C /* Sources */,
+				7C6CD821DBC8F4998827FC31211E8C67 /* Frameworks */,
+				2EB4F8243612EDCE4DF6792F08740A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D4C9F71AAA4D41AB9A4E60E5A798E91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DF1E72D784096985D7115A1B1D50CD /* GLBubbleTextTipsView */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				3B07F49ABBE0791A000D4EA29B98C240 /* Pods-GLBubbleTextTipsView_Example */,
+				0AE4D3B3E62027D13D838913BEA03427 /* Pods-GLBubbleTextTipsView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D4E9E0919F56FC1052D58FDB588920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233D1C6AE014366948F01BC0F9921D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB4F8243612EDCE4DF6792F08740A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6393E07E0394126CB083BF85FD3B9C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0944ACDF9109427850A24ED3B8AF8E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E415AE140CCB2FDC230EAFF1E6865C5E /* Pods-GLBubbleTextTipsView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101E75942E25E2AD68963919B25C5F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575E74706E7D5E23631BC3E6DEA1EF6A /* Pods-GLBubbleTextTipsView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324532A9349853F4B40E1D233C0A3D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EC2C25BAD5A3DF9CEAFBF08EED108D /* MASCompositeConstraint.m in Sources */,
+				C6E3C666AECE6430220D5DB1E6A85B52 /* MASConstraint.m in Sources */,
+				0D7C41044E6BF8BBCFBF097F8AA8A46E /* MASConstraintMaker.m in Sources */,
+				7C97A628D72EE557B836F4C194849D71 /* MASLayoutConstraint.m in Sources */,
+				6488DA85EE1804061495B722874DD681 /* Masonry-dummy.m in Sources */,
+				9D26CEDC7F4548CC2463F4EC6FA59BD3 /* MASViewAttribute.m in Sources */,
+				4AAD7B2D419472BB17CC39E301ADC7A4 /* MASViewConstraint.m in Sources */,
+				75CC71DA58CE1136E77F00875EC4E0E0 /* NSArray+MASAdditions.m in Sources */,
+				1CE4F67D8A92ABD5284AF8DB103BDBD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6ADF7FAB357649B692512CB8CDFB6C7A /* View+MASAdditions.m in Sources */,
+				F89500A17F061D3302379FBD47106E85 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFFA1C8AF2FBE2739C085DBF90ED3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E834756042266C7D0BD2F7B5134E7F2 /* GLBubbleTextTipsView.m in Sources */,
+				303939AD4356A63DC961A0B3D271000B /* GLBubbleTextTipsView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		271E718E67CEC975478B6C3E15523868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLBubbleTextTipsView;
+			target = 16DF1E72D784096985D7115A1B1D50CD /* GLBubbleTextTipsView */;
+			targetProxy = 72B6CF8C69703D08A5C3A4B9E2D1F66D /* PBXContainerItemProxy */;
+		};
+		830BEAC193E160EFC99540E4414B7357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = EDA3D75710E84E526456125A46041622 /* PBXContainerItemProxy */;
+		};
+		9DB7524864D85EE318BEBAF03D38F3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GLBubbleTextTipsView_Example";
+			target = 3B07F49ABBE0791A000D4EA29B98C240 /* Pods-GLBubbleTextTipsView_Example */;
+			targetProxy = 607BAA733262408E7AB7014DF4A1BD6E /* PBXContainerItemProxy */;
+		};
+		FBEA2B3174CB60798F5170A1DB11DD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = CECCA1AE689C7E38130EDF55C35ADFFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		303A74E9E287659A9795878A73B543A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF1AA7E3FADFE22E913BDF801457815 /* GLBubbleTextTipsView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView.modulemap";
+				PRODUCT_MODULE_NAME = GLBubbleTextTipsView;
+				PRODUCT_NAME = GLBubbleTextTipsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AB3B56AEDDECBBFC5E7E42D37252D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885E94E7BBCB8053125D92F8209BD1DE /* Pods-GLBubbleTextTipsView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Tests/Pods-GLBubbleTextTipsView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Tests/Pods-GLBubbleTextTipsView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C7F578815DB59E08BE5D68AF7CBEA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80FDC0198523B6F7F9B72072D1CA6C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B422B0BBAF7A43F055B4FC229B8C78 /* Pods-GLBubbleTextTipsView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Example/Pods-GLBubbleTextTipsView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Example/Pods-GLBubbleTextTipsView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4FEE8208BD99F0A5506FC0229B2952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813120DBF5D7C6587D25675F6C258423 /* Pods-GLBubbleTextTipsView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Example/Pods-GLBubbleTextTipsView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Example/Pods-GLBubbleTextTipsView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C854F5F886B571F15B0352715A8C61B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166539207CA6FE1E8262F375C51D5C18 /* GLBubbleTextTipsView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLBubbleTextTipsView/GLBubbleTextTipsView.modulemap";
+				PRODUCT_MODULE_NAME = GLBubbleTextTipsView;
+				PRODUCT_NAME = GLBubbleTextTipsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB68E35B02C6AF98FD9058E258918DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952DE83A9A37FFDF45B08B68CCF7CD0B /* Pods-GLBubbleTextTipsView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Tests/Pods-GLBubbleTextTipsView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLBubbleTextTipsView_Tests/Pods-GLBubbleTextTipsView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD1935B3D03820C8DF4CEF8157E2851D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE28CC92DF7B68F319340A32C39D414 /* Build configuration list for PBXNativeTarget "GLBubbleTextTipsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303A74E9E287659A9795878A73B543A9 /* Debug */,
+				C854F5F886B571F15B0352715A8C61B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EEA0A59C8695E1DF2CB21FA81DE623A /* Build configuration list for PBXNativeTarget "Pods-GLBubbleTextTipsView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB3B56AEDDECBBFC5E7E42D37252D25 /* Debug */,
+				CB68E35B02C6AF98FD9058E258918DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00EFAED4CB063F16DFD27EB6EEC3DAE /* Build configuration list for PBXNativeTarget "Pods-GLBubbleTextTipsView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FEE8208BD99F0A5506FC0229B2952E /* Debug */,
+				80FDC0198523B6F7F9B72072D1CA6C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED177522FFA9C9541988BEE129BBDFFD /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1935B3D03820C8DF4CEF8157E2851D /* Debug */,
+				6C7F578815DB59E08BE5D68AF7CBEA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
