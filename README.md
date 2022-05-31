@@ -5,7 +5,7 @@
 
 ## 使用
 ```
-pod GLBubbleTextTipsView'
+pod 'GLBubbleTextTipsView'
 ```
 
 ```
