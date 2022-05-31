@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  气泡引导提示视图
+  气泡引导提示视图，无需重复造轮子，有需要的可以直接拿走...
                        DESC
 
-  s.homepage         = 'https://github.com/lin peng/GLBubbleTextTipsView'
+  s.homepage         = 'https://github.com/Jacky-LinPeng/GLBubbleTextTipsView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lin peng' => 'linpeng.dev@gmail.com' }

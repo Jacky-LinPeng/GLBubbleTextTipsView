@@ -7,8 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 typedef NS_ENUM(NSUInteger,kGLArrowDirection){
     //箭头位置
     kGLArrowDirectionLeft = 0,//左
@@ -80,5 +78,3 @@ typedef NS_ENUM(NSUInteger,kGLArrowDirection){
 - (void)dissmiss:(BOOL)animated;
 
 @end
-
-NS_ASSUME_NONNULL_END
