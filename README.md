@@ -4,10 +4,13 @@
 *如果适用的话，给个star支持下呗*
 
 ## 使用
+```
+pod GLBubbleTextTipsView'
+```
 
 ```
 UIColor *bgColor = [UIColor colorWithRed:237 / 255.0 green:102 / 255.0 blue:100 / 255.0 alpha:1];
-        [GLBubbleTextTipsView showTipsViewWithText:@"这是气泡引导，不用重复造轮子啦" rootView:self.view width:150 point:CGPointMake(100, 200) align:kGLArrowDirectionLeft bgColor:bgColor textColor:[UIColor
+[GLBubbleTextTipsView showTipsViewWithText:@"这是气泡引导，不用重复造轮子啦" rootView:self.view width:150 point:CGPointMake(100, 200) align:kGLArrowDirectionLeft bgColor:bgColor textColor:[UIColor
 ```
 
 
